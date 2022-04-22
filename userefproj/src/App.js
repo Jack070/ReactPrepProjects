@@ -1,10 +1,11 @@
-import React from 'react'
+import React from "react";
+import UseRefBasics from "./useRefSetup/1-useRef-basics";
 function App() {
   return (
-    <div className='container'>
-      <h2>Advanced Tutorial</h2>
+    <div className="container">
+      <UseRefBasics />
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
