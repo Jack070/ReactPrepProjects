@@ -1,10 +1,11 @@
-import React from 'react'
+import React from "react";
+import ContextAPI from "./useSetupSetup/1-context-api";
 function App() {
   return (
-    <div className='container'>
-      <h2>Advanced Tutorial</h2>
+    <div className="container">
+      <ContextAPI />
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
